@@ -25,7 +25,7 @@ DEBUG_RPI = -D $(USELIB_RPI) -D RPI
 
 RPI:RPI_DEV RPI_epd 
 
-TARGET = epd
+TARGET = epd.so
 CC = gcc
 MSG = -g -O -ffunction-sections -fdata-sections -Wall
 # CFLAGS += $(MSG) -D $(EPD)
